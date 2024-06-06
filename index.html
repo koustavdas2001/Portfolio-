@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+   <html lang="en">
+   
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Koustav Das.</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a class='nav__logo' href='index.html'>KOUSTAV.</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a class='nav__link' href='index.html'>Home</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a class='nav__link' href='about.html'>About Me</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a class='nav__link' href='work.html'>Portfolio</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a class='button' href='contact.html'>Contact Me</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Theme button -->
+               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+
+               <!--Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-apps-2-line"></i>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section">
+            <div class="home__rectangle"></div>
+
+            <div class="home__container container grid">
+               <div class="home__perfile perfile">
+                  <div class="perfile__content">
+                     <img src="assets/img/me.png" alt="Home Profile Image" class="perfile__img">
+                  </div>
+               </div>
+
+               <div class="home__content grid">
+                  <div class="home__data grid">
+                     <h1 class="home__name">Koustav Das.</h1>
+
+                     <h2 class="home__profession">Web Developer</h2>
+
+                     <div class="home__social">
+                        <a href="https://github.com/koustavdas2001" target="_blank" class="home__social-link">
+                           <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/koustavdas2001/" target="_blank" class="home__social-link">
+                           <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/koustavx/" target="_blank" class="home__social-link">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <a href="assets/pdf/resume.pdf" download="" class="home__button button">Download CV</a>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 class="section__title">
+               So what do <br>I do?
+            </h2>
+
+            <div class="services__container container">
+
+               <article class="services__card">
+                  <i class="ri-pen-nib-line services__icon"></i>
+                  <h2 class="services__title">Web Developer</h2>
+                  <p class="services__description">
+                     Crafting seamless digital experiences that click with your audience and drive engagement to new heights.
+                  </p>
+                  <button class="services__button button">Know More</button>
+
+                  <div class="services__modal">
+                     <div class="services__modal-content">
+                        <i class="ri-close-line services__modal-close"></i>
+                        
+                        <h2 class="services__modal-title">Web Developer</h2>
+
+                        <ul class="services__modal-list grid">
+                           <li class="services__modal-item">
+                              <b>Seamless UX:</b> Intuitive navigation for maximum engagement.
+                           </li>
+
+                           <li class="services__modal-item">
+                              <b>Responsive Design:</b> Consistent experience across all devices.
+                           </li>
+
+                           <li class="services__modal-item">
+                              <b>Fast Load Times:</b> Speed-optimized to reduce bounce rates.
+                           </li>
+
+                           <li class="services__modal-item">
+                              <b>Engaging Visuals:</b> Modern designs that captivate and enhance brand identity.
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== WORK ====================-->
+         <section class="work section">
+            <h2 class="section__title">
+               My Most <br>Recent Projects 
+            </h2>
+
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="https://wanderlust-project-cyrd.onrender.com/listings" target="_blank" class="work__link">
+                     <img src="assets/img/work-1.png" alt="Home Work Image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Wanderlust</h2>
+                  <span class="work__subtitle">Hotel listing website</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://cypto-watchdog.vercel.app/" target="_blank" class="work__link">
+                     <img src="assets/img/work-2.png" alt="Home Work Image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Crypto Watchdog</h2>
+                  <span class="work__subtitle">Cryptocurrency price tracker</span>
+               </article>
+
+               <article class="work__card">
+                  <a href="https://gemini-chatbot-lake.vercel.app/"  target="_blank" class="work__link">
+                     <img src="assets/img/work-3.png" alt="Home Work Image" class="work__img">
+                     <i class="ri-arrow-right-circle-line work__icon"></i>
+                  </a>
+
+                  <h2 class="work__title">Gemini</h2>
+                  <span class="work__subtitle">Gemini Chatbot Clone</span>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section">
+            <div class="contact__container container grid">
+               <h2 class="section__title">
+                  Reach Out <br> To Me!
+               </h2>
+
+               <a class='contact__button button' href='contact.html'>Contact Me</a>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div class="footer__content grid">
+               <a class='footer__logo' href='index.html'>Koustav.</a>
+
+               <ul class="footer__links">
+                  <li>
+                     <a class='footer__link' href='about.html'>About Me</a>
+                  </li>
+
+                  <li>
+                     <a class='footer__link' href='work.html'>Portfolio</a>
+                  </li>
+                  
+                  <li>
+                     <a class='footer__link' href='contact.html'>Contact Me</a>
+                  </li>
+               </ul>
+
+               <div class="footer__social">
+                  <a href="https://github.com/koustavdas2001" target="_blank" class="footer__social-link">
+                     <i class="ri-github-fill"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/koustavx/" target="_blank" class="footer__social-link">
+                     <i class="ri-instagram-fill"></i>
+                  </a>
+
+                  <a href="https://twitter.com/DexKoustav" target="_blank" class="footer__social-link">
+                     <i class="ri-twitter-x-fill"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/koustavdas2001/" target="_blank" class="footer__social-link">
+                     <i class="ri-linkedin-box-fill"></i>
+                  </a>
+               </div>
+            </div>
+            <span class="footer__copy">&#169; Happy Browsing &#128064</span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollUp" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== INDEX JS ===============-->
+      <script src="assets/js/index.js"></script>
+   </body>
+
+</html>
